@@ -1,0 +1,34 @@
+module.exports = {
+    token: 'xxxxxxxxxxxxxxxxxxxxxx',
+    clientId: 'xxxxxxxxxxxxxxxx',
+    guildId: 'xxxxxxxxxxxxx',
+    port: 1020,
+    mail: {
+        host: 'mail.example.com',
+        port: 465,
+        secure: true,
+        tls: {
+            servername: 'mail.example.com'
+        },
+        auth: {
+            user: 'noreply@example.com',
+            pass: 'password'
+        }
+    },
+
+    verifiedRole: 'xxxxxxxxxxxx',
+    studentRole: 'xxxxxxxxxxx',
+    studentRoleDomain: 'example.com',
+
+    mailName: 'Discord Verification',
+    botName: 'Verification Bot',
+    domain: 'verify.example.com',
+
+    // placeholders: [link] for verify URL
+    mailContent: `Hello!
+
+To complete verification for the Discord server, click on this link: [link]
+If you did not make this request, you can safely ignore this email.
+
+Thank you!`
+}
